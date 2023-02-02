@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{632B8061-EB65-45C7-B5FD-9EE7C255DA97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorAPI", "CalculatorAPI\CalculatorAPI.csproj", "{00F133FD-AC63-4469-95C6-A6DBD5CF836C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{632B8061-EB65-45C7-B5FD-9EE7C255DA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{632B8061-EB65-45C7-B5FD-9EE7C255DA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{632B8061-EB65-45C7-B5FD-9EE7C255DA97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F133FD-AC63-4469-95C6-A6DBD5CF836C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F133FD-AC63-4469-95C6-A6DBD5CF836C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F133FD-AC63-4469-95C6-A6DBD5CF836C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F133FD-AC63-4469-95C6-A6DBD5CF836C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
