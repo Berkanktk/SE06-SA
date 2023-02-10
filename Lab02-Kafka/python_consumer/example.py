@@ -3,5 +3,12 @@ from kafka import KafkaConsumer
 # The third argument is the group id, which is used to identify the consumer group
 consumer = KafkaConsumer('foobar', bootstrap_servers=['kafka1:9092'], group_id='group1')
 
+# write received messages into a file named the-rabbit-hole.txt
+with open('the-rabbit-hole.txt', 'w') as f:
+    for msg in consumer:
+        f.write(msg.value.decode('utf-8'))
+
+"""
 for msg in consumer:
     print (msg.value.decode('utf-8'))
+"""
